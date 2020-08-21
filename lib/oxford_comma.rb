@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  nuarr = array.split("")  
-  puts nuarr
+  nuarr = []  
+  nuarr << array.split("")
 
 end
