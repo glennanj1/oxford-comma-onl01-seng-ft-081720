@@ -1,6 +1,6 @@
 def oxford_comma(array)
   
-  array = array.split(" ")
+  array = array.split(" , ")
   puts array
     
 
