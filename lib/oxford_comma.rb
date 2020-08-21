@@ -1,5 +1,8 @@
 def oxford_comma(array)
   nuarr = []  
-  nuarr << array.split("")
+  nuarr do |split|
+    nuarr << array.split("")
+  end
+  nuarr
 
 end
